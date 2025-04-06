@@ -1,0 +1,68 @@
+
+/* Basic Body Styling */
+body {
+    font-family: sans-serif; /* Different font example */
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px; /* Overall margin for the body */
+}
+
+/* Styling using ID selector */
+#main-title {
+    color: #007bff; /* Blue color */
+    text-align: center;
+    margin-bottom: 10px; /* Margin below the title */
+}
+
+/* Styling using Class selector */
+.page-header {
+    font-size: 2.5em;
+}
+
+.tagline {
+    font-style: italic;
+    color: #777;
+}
+
+.content-section {
+    background-color: #fff;
+    padding: 20px; /* Padding inside the content section */
+    margin-bottom: 20px; /* Margin below the content section */
+    border: 1px solid #ccc; /* Border around the content section */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.item-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.list-item {
+    margin-bottom: 5px;
+}
+
+/* Styling a specific list item using a more specific class */
+.special-item {
+    font-weight: bold;
+    color: green;
+}
+
+/* Styling the image using ID selector */
+#my-image {
+    display: block; /* To center the image properly */
+    max-width: 50%; /* Make the image responsive */
+    height: auto;
+    margin: 20px auto; /* Top and bottom margin, auto for horizontal centering */
+    border: 3px solid #555; /* Border around the image */
+    padding: 5px; /* Padding inside the image border */
+}
+
+/* Styling the footer */
+footer {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    color: #555;
+    font-size: 0.8em;
+}
